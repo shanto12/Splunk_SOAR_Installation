@@ -1,4 +1,4 @@
-"#!/bin/bash
+#!/bin/bash
 
 # Check Operating System
 os=$(cat /etc/redhat-release)
@@ -53,4 +53,3 @@ if (systemctl is-active --quiet ntp); then
 else
     echo ""NTP: NO | Required: NTP""
 fi
-"
